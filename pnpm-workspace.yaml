@@ -1,3 +1,6 @@
 packages:
-  - "."
-  - "src-api"
+  - .
+  - src-api
+
+ignoredBuiltDependencies:
+  - esbuild
